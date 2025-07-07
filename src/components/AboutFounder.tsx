@@ -33,17 +33,12 @@ const AboutFounder = () => {
                   </p>
                   
                   <p className="text-lg leading-relaxed text-gray-700">
-                    Ashish brings a unique mix of “solutioning” skills to the sustainability and climate change space grounded on a rich 20-year corporate experience spanning engineering, finance, retail & big-data consumer analytics (Tier 1 companies: Emerson, Goldman Sachs, Fidelity, dunnhumby, across the US and India) – ending his stint in the corporate world as the head of a newly formed JV between dunnhumby and Future Group - based out of Mumbai.
-
-
-A burning desire to contribute to the fight against climate change led him, over 7 years ago, to switch to consulting work on decentralized solutions in clean energy, energy access, and waste management. He started Second Nature Sustainable Solutions; and in 2020 became the co-founding partner of MinusCO2- a solar and clean-tech developer that leverages retail impact investment.
+                    Ashish brings a unique mix of “solutioning” skills to the sustainability and climate change space grounded on a rich 20-year corporate experience spanning engineering, finance, retail & big-data consumer analytics (Tier 1 companies: Emerson, Goldman Sachs, Fidelity, dunnhumby, across the US and India) – ending his stint in the corporate world as the head of a newly formed JV between dunnhumby and Future Group - based out of Mumbai. A burning desire to contribute to the fight against climate change led him, over 7 years ago, to switch to consulting work on decentralized solutions in clean energy, energy access, and waste management. He started Second Nature Sustainable Solutions; and in 2020 became the co-founding partner of MinusCO2- a solar and clean-tech developer that leverages retail impact investment.
                   </p>
 
                   <p className="text-lg leading-relaxed text-gray-700">
-                    Ashish sees promise in Impact Finance, and is of the view that people with his background need to become the enabling link between social enterprises and investors (philanthropic, for-profit, and retail) to forge lasting impact.
-
-
-Ashish has a B.E. from the Delhi Institute of Technology (now Netaji Subhas University of Technology) and an M.S. in Applied Systems from the University of Cincinnati, Ohio, US. He is also an active member of the Forum for Responsible Living, The Impact Future Project, and Aspire Circle. Ashish has had multiple speaking engagements, authorship of 20+ articles in periodicals / books / journals / conference proceedings, and 8+ US patents.
+                    Ashish sees promise in Impact Finance, and is of the view that people with his background need to become the enabling link between social enterprises and investors (philanthropic, for-profit, and retail) to forge lasting impact. Ashish has a B.E. from the Delhi Institute of Technology (now Netaji Subhas University of Technology) and an M.S. in Applied Systems from the University of Cincinnati, Ohio, US. He is also an active member of the Forum for Responsible Living, The Impact Future Project, and Aspire Circle. Ashish has had multiple speaking engagements, authorship of 20+ articles in periodicals / books / journals / conference proceedings, and 8+ US patents.
+                  </p>
 
                   {/* Social Links */}
                   <div className="flex flex-wrap gap-4 pt-4">
