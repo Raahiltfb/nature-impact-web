@@ -12,54 +12,48 @@ const ImpactJourney = () => {
       color: 'blue'
     },
     {
-      year: '2017',
-      title: 'First Clean Energy Projects',
-      description: 'Launched consulting services for C&I clean energy adoption',
+      year: '2018-2020',
+      title: 'Learning Phase',
+      description: 'Via primary and desk research quickly arrived at the potential of the Impact Investment paradigm – and established relationships and functional interactions with ecosystem players, thought leaders, and investors, that are engaged in the Impact Economy.',
       icon: Rocket,
       color: 'green'
     },
     {
-      year: '2018',
-      title: 'Elecrama Innovation',
-      description: 'Recognized as innovative startup at Elecrama exhibition',
+      year: '2020',
+      title: 'Kick Off',
+      description: 'In collaboration with Friedrich-Ebert-Stiftung, India, and encouragement from members of The Forum for Responsible Building, developed and launched an <a href="https://india.fes.de/e/call-to-apply-impact-investment-primer">Impact Investment Primer (IIP)</a> for change-makers who work on, or aspire to create, transformational impacts but are unable to leverage the prevalent Impact Investment Ecosystem.',
       icon: Award,
       color: 'purple'
     },
     {
-      year: '2019',
-      title: 'Solar Finance Training',
-      description: 'Conducted project finance training for 75+ turnkey EPCs across India',
+      year: '2020-2023',
+      title: 'Impact for Enterprises',
+      description: '70+ enterprises across diverse social and ecological spaces such as clean energy, education, circular economy, creative arts, waste management, and restoration and regeneration of natural ecosystems, have attended the IIP – insights in this <a href="https://india.fes.de/e/impact-entrepreneurs-onto-a-green-journey">report</a>. Of them, 15 enterprises have engaged in long-term advisory.',
       icon: Users,
       color: 'orange'
     },
     {
-      year: '2020',
-      title: 'Ecosystem Development',
-      description: 'Expanded focus to payments for ecosystem services',
+      year: '2021-2023',
+      title: 'Impact for Students',
+      description: 'Created and conducted awareness sessions for students of engineering, management, social sciences, and architecture disciplines, on the opportunities to ‘DO WELL (for themselves)’ and simultaneously ‘DO GOOD (for the planet and others)’ with careers built in the framework of the Impact Economy.',
       icon: Globe,
       color: 'emerald'
     },
     {
-      year: '2021',
-      title: 'Impact Advisory',
-      description: 'Launched comprehensive impact advisory portfolio',
+      year: '2022-2023',
+      title: 'Roadmap to an Impact Economy',
+      description: 'Insights and feedback made it clear that there is a need to transform the culture and to orient the Impact Investment Ecosystem to how socio- ecological change-makers aim to achieve sustainable results, as articulated in our call to establish a <a href="https://india.fes.de/e/an-impact-investment-ecosystem-for-transformative-systems-change.html">‘coalition of the willing’</a> that co-creates an <a href="https://india.fes.de/fileadmin/user_upload/IIE.pdf".Impact Investment Ecosystem for Transformative Systems Change.</a>',
       icon: Target,
       color: 'red'
     },
     {
       year: '2023',
-      title: 'Global Collaboration',
-      description: 'Part of FES delegation to Germany for Just Energy Transition',
+      title: 'Impact for Nature Based Systems',
+      description: 'The restoration and sustainable regeneration of natural ecosystems requires models that simultaneously incentivize local stewardship and are rooted in the impact investment paradigm. We have co-authored a position paper on <a href="https://library.fes.de/pdf-files/bueros/indien/21166.pdf">Payments for Ecosystem Services</a> and conducted a multi-stakeholder convening on this framework.',
       icon: MapPin,
       color: 'indigo'
     },
-    {
-      year: '2024',
-      title: 'Educational Outreach',
-      description: 'Provided solar energy overview to Yashada participants',
-      icon: Calendar,
-      color: 'pink'
-    }
+   
   ];
 
   const getColorClasses = (color: string) => {
