@@ -26,7 +26,7 @@ const AboutFounder = () => {
                 {/* Content */}
                 <div className="flex-1 text-left space-y-6">
                   <h3 className="text-3xl sm:text-4xl font-bold text-gray-900">
-                    Ashish Mehta
+                    Ashish Mehtas
                   </h3>
                   <p className="text-xl text-blue-600 font-medium">
                     Founder & CEO
