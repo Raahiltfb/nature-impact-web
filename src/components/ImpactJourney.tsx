@@ -5,9 +5,9 @@ import { Calendar, MapPin, Users, Award, Lightbulb, Target, Rocket, Globe } from
 const ImpactJourney = () => {
   const timelineEvents = [
     {
-      year: '2016',
-      title: 'Foundation',
-      description: 'Second Nature established with a vision to bridge impact and capital',
+      year: '2018',
+      title: 'Problem Identification',
+      description: 'As part of the first Cohort of a unique, values-based transformational leadership residential program, interacted with and developed trust-based relationships with several highly skilled and passionate changemakers. Most of them, expressed financing/funding as the fundamental challenge to scaling up their impact.',
       icon: Lightbulb,
       color: 'blue'
     },
