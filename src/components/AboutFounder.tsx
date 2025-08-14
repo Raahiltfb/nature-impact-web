@@ -16,10 +16,14 @@ const AboutFounder = () => {
             <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl shadow-xl p-8 lg:p-12">
               {/* Founder Info */}
               <div className="flex flex-col lg:flex-row items-center space-y-8 lg:space-y-0 lg:space-x-12">
-                {/* Profile Image Placeholder */}
+                {/* Profile Image */}
                 <div className="flex-shrink-0">
-                  <div className="w-48 h-48 bg-gradient-to-br from-blue-400 to-indigo-600 rounded-full flex items-center justify-center">
-                    <span className="text-white text-6xl font-bold">AM</span>
+                  <div className="w-48 h-48 rounded-full overflow-hidden">
+                    <img 
+                      src="/lovable-uploads/778f9cb0-01a8-4587-86ee-b3c062778725.png" 
+                      alt="Ashish Mehta - Founder & CEO of Second Nature"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </div>
 
