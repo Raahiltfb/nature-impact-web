@@ -6,43 +6,90 @@ const ImpactAdvisory = () => {
   const impactEnterprises = [
     {
       id: 1,
-      name: 'EcoTech Solutions',
-      logo: Building2,
-      description: 'Developing sustainable technology solutions for urban waste management',
-      impact: 'Reduced waste by 40% in partner cities',
-      color: 'green'
+      name: 'Kasalyan',
+      image: '/lovable-uploads/440a5d01-84f1-4553-8f6d-93709e155ba9.png',
+      description: 'Upcycling Construction & Demolition waste into ready-to-use products for the construction industry. A circular economy company.',
+      details: 'Kasalyan Enviro Systems is a waste management company that converts Recycled Dressed Bricks by bonding in different combinations of sand and mineral waste(such as fly ash), avoiding the waste from 2 brick kilns across a 1000 sq km area, City with 3% recycled aggregates, and 60% avoidance of weak material in cement, construction sites. The Asia Infrastructure Investment Bank selected Kasalyan to conduct studies of sustainable urban infrastructure in 2022. Kasalyan is involved in eight companies, has a minimum of 1 lakh ex water per month capacity.',
+      impact: [
+        'Mitigates adverse ecological impacts of servicing natural aggregates like sand, stones, top soil, etc. that are key raw materials for the construction industry',
+        'Reduces energy intensity and environmental footprint of buildings and infrastructure',
+        'Creates additional skilled and semi-skilled jobs and meaningful livelihoods'
+      ],
+      color: 'blue'
     },
     {
       id: 2,
-      name: 'Community Energy Co-op',
-      logo: Zap,
-      description: 'Empowering rural communities through distributed renewable energy',
-      impact: 'Provided clean energy to 10,000+ households',
-      color: 'yellow'
+      name: 'ELF - Eco-Logical Foundation',
+      image: '/lovable-uploads/aa8a9214-5c3c-4e3e-a1e4-4076279976af.png',
+      description: 'Providing integrated and mobilisation for leadership development and facilitating social-ecological transformation. Systems Change not for-profit Trust.',
+      details: 'ELF believes in the power of anyone and everyone to make a difference. Because rapid co-valuation that adopt transformative socio-ecological thinking, bring the change they want to see around us are human-made and can be changed by human-minds with that.',
+      activities: [
+        'Established the Forum for Responsible Living, a trans-generational collective of 56 Co-signers across Mumbai and Pune (Maharashtra)',
+        'Produced a documentary film on Responsible Building Practices and traditional ways based residential systems, organisation of 40+ green shows running',
+        'Natural regenerations like sand, stones, top soil, etc. that are key raw materials for the construction industry',
+        'Reduces energy intensity and environmental footprint of buildings and infrastructure',
+        'Creates additional skilled and semi-skilled jobs and meaningful livelihoods'
+      ],
+      impact: [
+        'Natural regenerations like sand, stones, top soil, etc. that are key raw materials for the construction industry',
+        'Reduces energy intensity and environmental footprint of buildings and infrastructure',
+        'Creates additional skilled and semi-skilled jobs and meaningful livelihoods'
+      ],
+      color: 'green'
     },
     {
       id: 3,
-      name: 'AgriSustain',
-      logo: Leaf,
-      description: 'Promoting regenerative agriculture and farmer livelihoods',
-      impact: 'Improved yields for 5,000+ smallholder farmers',
-      color: 'emerald'
+      name: 'OPENDOORS',
+      image: '/lovable-uploads/bec9b3c3-f2a9-41c2-98ae-61c6855f7a7b.png',
+      description: 'Relocation as a form of empowerment... not just a transaction. A creative arts not-for-profit company.',
+      details: 'OPENDOORS believes the relocation process is an opportunity to engage creative environments to collaborate and young adults to recognise their unique talents and potential through art. Working with purpose, OPENDOORS harnesses the creative arts, interior and in the community based on the systems that truly empower houses of various.',
+      activities: [
+        'Delivered a curated year-long programme to 350+ students over 2 years',
+        'Designed 14 Teacher training programs',
+        'Designed a unique CLEAR THE MINDBOX service of art-based stress release workshops'
+      ],
+      impact: [
+        'Exposure to mindful and happy human-centric and creative thinking skills amongst the next generation',
+        'Empowers art teachers and creates an ecosystem that leverages the creative arts for impacting social-personal resilience for learning minds and designers'
+      ],
+      color: 'purple'
     },
     {
       id: 4,
-      name: 'HealthBridge',
-      logo: Heart,
-      description: 'Bridging healthcare gaps in underserved communities',
-      impact: 'Reached 50,000+ patients in remote areas',
-      color: 'red'
+      name: 'MinusCO2',
+      image: '/lovable-uploads/9749b738-1c10-4610-82fe-00d53e0f715d.png',
+      description: 'Increasing the adoption of distributed clean-energy through technology for impact retail finance. A Search for-profit company.',
+      details: 'MinusCO2 works on four fronts, a specialist with differentiated retail offers on residential solar and commercial energy and IT services as a managed services without pricing for retail reach improvement programmes.',
+      activities: [
+        'Has 350+ consultative across residential, high-end commercial, renewable energy providers and analysts',
+        'Cited by the Asia Infrastructure Investment Bank as one of the market leaders of sustainable urban',
+        'Innovative impact investment vehicle for the average real (HNI) target investor'
+      ],
+      impact: [
+        'Reduces the CO2 footprint of energy usage of urban consumers',
+        'Delivers impact returns (financial + environmental) to consumers',
+        'Creates additional semi-skilled and small-green jobs'
+      ],
+      color: 'emerald'
     },
     {
       id: 5,
-      name: 'EduTech Impact',
-      logo: Users,
-      description: 'Leveraging technology for quality education access',
-      impact: 'Educated 25,000+ children in rural schools',
-      color: 'blue'
+      name: 'TEJ-U',
+      image: '/lovable-uploads/f55ea0f3-3f4a-423a-88a4-18e6702d992f.png',
+      description: 'Teja Learning Pvt Ltd. Boosting employability by enabling knowledge-based employability for junior persons. A for-profit education company.',
+      details: 'TEJ-U interventions at the school system level (sharing skills development centers across Teja junior empowerment, critical thinking, and problem Knowledge development) that have an immaculately positive effect on the students.',
+      activities: [
+        'Cross 75 schools',
+        'Leverages hybrid teaching models across south India',
+        'Programs as sundaredu small institutions in six states',
+        'Prepared well-researched and tailored content for upper primary sections (specially focusing on mathematics, Science, Learning for pre-access to communication)'
+      ],
+      impact: [
+        'For youths',
+        'Confident and knowledge-enriched personality of the students',
+        'Aim to impact the lives of 10 lakh school-going children, in urban and rural areas'
+      ],
+      color: 'red'
     }
   ];
 
@@ -102,17 +149,53 @@ const ImpactAdvisory = () => {
           {/* Impact Enterprises Grid - 3-2 Layout */}
           <div className="max-w-7xl mx-auto mt-16">
             {/* Top Row - 3 Cards */}
-            <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
               {impactEnterprises.slice(0, 3).map((enterprise) => (
                 <div key={enterprise.id} className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                  <div className="p-8">
-                    <div className={`w-16 h-16 rounded-full border-2 flex items-center justify-center mx-auto mb-6 ${getColorClasses(enterprise.color)}`}>
-                      <enterprise.logo className="w-8 h-8" />
+                  <div className="p-6">
+                    {/* Header */}
+                    <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">{enterprise.name}</h3>
+                    
+                    {/* Image */}
+                    <div className="w-20 h-20 mx-auto mb-4 overflow-hidden rounded-lg">
+                      <img 
+                        src={enterprise.image} 
+                        alt={enterprise.name}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">{enterprise.name}</h3>
-                    <p className="text-gray-600 mb-4 text-center">{enterprise.description}</p>
-                    <div className="bg-gray-50 rounded-lg p-4">
-                      <p className="text-sm font-semibold text-blue-600 text-center">{enterprise.impact}</p>
+                    
+                    {/* Description */}
+                    <p className="text-sm text-gray-700 mb-4 text-center leading-relaxed">{enterprise.description}</p>
+                    
+                    {/* Details */}
+                    <div className="text-xs text-gray-600 mb-4 leading-relaxed">{enterprise.details}</div>
+                    
+                    {/* Activities */}
+                    {enterprise.activities && (
+                      <div className="mb-4">
+                        <ul className="text-xs text-gray-600 space-y-1">
+                          {enterprise.activities.map((activity, index) => (
+                            <li key={index} className="flex items-start">
+                              <span className="text-blue-600 mr-2">•</span>
+                              <span>{activity}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                    
+                    {/* Impact */}
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2 text-sm">Impact:</h4>
+                      <ul className="text-xs text-gray-600 space-y-1">
+                        {enterprise.impact.map((item, index) => (
+                          <li key={index} className="flex items-start">
+                            <span className="text-green-600 mr-2">•</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -121,17 +204,53 @@ const ImpactAdvisory = () => {
 
             {/* Bottom Row - 2 Cards Centered */}
             <div className="flex justify-center">
-              <div className="grid md:grid-cols-2 gap-8 max-w-4xl">
+              <div className="grid md:grid-cols-2 gap-6 max-w-4xl w-full">
                 {impactEnterprises.slice(3, 5).map((enterprise) => (
                   <div key={enterprise.id} className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div className="p-8">
-                      <div className={`w-16 h-16 rounded-full border-2 flex items-center justify-center mx-auto mb-6 ${getColorClasses(enterprise.color)}`}>
-                        <enterprise.logo className="w-8 h-8" />
+                    <div className="p-6">
+                      {/* Header */}
+                      <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">{enterprise.name}</h3>
+                      
+                      {/* Image */}
+                      <div className="w-20 h-20 mx-auto mb-4 overflow-hidden rounded-lg">
+                        <img 
+                          src={enterprise.image} 
+                          alt={enterprise.name}
+                          className="w-full h-full object-cover"
+                        />
                       </div>
-                      <h3 className="text-xl font-bold text-gray-900 mb-4 text-center">{enterprise.name}</h3>
-                      <p className="text-gray-600 mb-4 text-center">{enterprise.description}</p>
-                      <div className="bg-gray-50 rounded-lg p-4">
-                        <p className="text-sm font-semibold text-blue-600 text-center">{enterprise.impact}</p>
+                      
+                      {/* Description */}
+                      <p className="text-sm text-gray-700 mb-4 text-center leading-relaxed">{enterprise.description}</p>
+                      
+                      {/* Details */}
+                      <div className="text-xs text-gray-600 mb-4 leading-relaxed">{enterprise.details}</div>
+                      
+                      {/* Activities */}
+                      {enterprise.activities && (
+                        <div className="mb-4">
+                          <ul className="text-xs text-gray-600 space-y-1">
+                            {enterprise.activities.map((activity, index) => (
+                              <li key={index} className="flex items-start">
+                                <span className="text-blue-600 mr-2">•</span>
+                                <span>{activity}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                      
+                      {/* Impact */}
+                      <div>
+                        <h4 className="font-semibold text-gray-800 mb-2 text-sm">Impact:</h4>
+                        <ul className="text-xs text-gray-600 space-y-1">
+                          {enterprise.impact.map((item, index) => (
+                            <li key={index} className="flex items-start">
+                              <span className="text-green-600 mr-2">•</span>
+                              <span>{item}</span>
+                            </li>
+                          ))}
+                        </ul>
                       </div>
                     </div>
                   </div>
