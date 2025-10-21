@@ -29,8 +29,14 @@ const ImpactEconomy = () => {
             </p>
             
             <p className="text-lg leading-relaxed text-gray-600">
-              The impact economy represents a paradigm shift where financial returns are measured not just in monetary terms, but in tangible positive outcomes for society and the environment. This new economic model recognizes that sustainable prosperity requires a holistic approach that balances profit with purpose.
+              Antony Bugg-Levine, ex-MD of Rockefeller Foundation, was one of the first to articulate that the money needed to solve global problems goes much beyond what governments and philanthropy can provide. At the same time, it is clear that there is no dearth of capital – financial markets are flush with it. Thus was born, in 2007 at the Rockefeller retreat in Bellagio, Italy, the concept of Impact Investment - investments made with the intention of generating both financial return and social and/or environmental impact.
+              <br> The evolving Impact Economy realigns capitalism to simultaneously achieve Profit and Purpose. We believe, it has the potential to forge meaningful and lasting impact.
+              </br>
             </p>
+
+             <p className="text-xl sm:text-2xl leading-relaxed text-gray-700 font-medium">
+               <a href="https://india.fes.de/e/the-impact-revolution-is-here-are-you-ready.html" target="_blank" rel="noopener noreferrer">The Impact Revolution is here. Are you ready?</a>
+             </p>
           </div>
 
           {/* Impact Metrics */}
