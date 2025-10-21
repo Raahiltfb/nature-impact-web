@@ -99,3 +99,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* 🌐 Global hyperlink styling (applies to entire site) */
+a {
+  color: #2563eb; /* Tailwind blue-600 */
+  text-decoration: underline;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #1d4ed8; /* Tailwind blue-700 */
+}
