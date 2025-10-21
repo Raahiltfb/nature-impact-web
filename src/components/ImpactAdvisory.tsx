@@ -6,7 +6,7 @@ const ImpactAdvisory = () => {
   const impactEnterprises = [
     {
       id: 1,
-      name: 'Kasalyan',
+      name: 'Kesarjan',
       image: '/lovable-uploads/440a5d01-84f1-4553-8f6d-93709e155ba9.png',
       description: 'Upcycling Construction & Demolition waste into ready-to-use products for the construction industry. A circular economy company.',
       details: 'Kasalyan Enviro Systems is a waste management company that converts Recycled Dressed Bricks by bonding in different combinations of sand and mineral waste(such as fly ash), avoiding the waste from 2 brick kilns across a 1000 sq km area, City with 3% recycled aggregates, and 60% avoidance of weak material in cement, construction sites. The Asia Infrastructure Investment Bank selected Kasalyan to conduct studies of sustainable urban infrastructure in 2022. Kasalyan is involved in eight companies, has a minimum of 1 lakh ex water per month capacity.',
@@ -57,7 +57,7 @@ const ImpactAdvisory = () => {
     {
       id: 4,
       name: 'MinusCO2',
-      image: '/lovable-uploads/9749b738-1c10-4610-82fe-00d53e0f715d.png',
+      image: 'https://minusco2.in/images/logo1.png',
       description: 'Increasing the adoption of distributed clean-energy through technology for impact retail finance. A Search for-profit company.',
       details: 'MinusCO2 works on four fronts, a specialist with differentiated retail offers on residential solar and commercial energy and IT services as a managed services without pricing for retail reach improvement programmes.',
       activities: [
