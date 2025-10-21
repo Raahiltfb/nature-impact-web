@@ -92,7 +92,7 @@ const Footer = () => {
             </div>
             <div className="text-center md:text-right">
               <p className="text-gray-400">
-                © 2024 Second Nature. All rights reserved.
+                © 2025 Second Nature. All rights reserved.
               </p>
               <button
                 onClick={scrollToTop}
