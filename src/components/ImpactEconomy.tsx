@@ -30,8 +30,8 @@ const ImpactEconomy = () => {
             
             <p className="text-lg leading-relaxed text-gray-600">
               Antony Bugg-Levine, ex-MD of Rockefeller Foundation, was one of the first to articulate that the money needed to solve global problems goes much beyond what governments and philanthropy can provide. At the same time, it is clear that there is no dearth of capital – financial markets are flush with it. Thus was born, in 2007 at the Rockefeller retreat in Bellagio, Italy, the concept of Impact Investment - investments made with the intention of generating both financial return and social and/or environmental impact.
-              <br> The evolving Impact Economy realigns capitalism to simultaneously achieve Profit and Purpose. We believe, it has the potential to forge meaningful and lasting impact.
-              </br>
+              <br />
+              The evolving Impact Economy realigns capitalism to simultaneously achieve Profit and Purpose. We believe, it has the potential to forge meaningful and lasting impact.
             </p>
 
              <p className="text-xl sm:text-2xl leading-relaxed text-gray-700 font-medium">
