@@ -117,7 +117,9 @@ const ImpactJourney = () => {
                           </div>
                         </div>
                         <h3 className="text-xl font-bold text-gray-900 mb-2">{event.title}</h3>
-                        <p className="text-gray-600">{event.description}</p>
+                        <p className="text-gray-600"
+                           dangerouslySetInnerHTML={{ __html: event.description }}
+                          ></p>
                       </div>
                     </div>
 
