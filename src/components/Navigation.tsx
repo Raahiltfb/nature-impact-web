@@ -22,6 +22,8 @@ const Navigation = () => {
     { name: 'Impact Advisory Portfolio', href: '#impact-advisory' },
     { name: 'Payments for Ecosystem Services', href: '#ecosystem-services' },
     { name: 'Clean Energy', href: '#clean-energy' },
+    { name: 'Voices of the Impact Economy', href: '#voices-impact' },
+    { name: 'Resources', href: '#resources' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -29,6 +31,11 @@ const Navigation = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+    setIsMenuOpen(false);
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     setIsMenuOpen(false);
   };
 
@@ -40,30 +47,17 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src="/lovable-uploads/ffd30fc2-be76-42b8-96c9-dd393540d0e7.png" 
-              alt="Second Nature" 
-              className="h-12 w-auto"
-            />
+            <button onClick={scrollToTop} className="focus:outline-none">
+              <img 
+                src="/lovable-uploads/ffd30fc2-be76-42b8-96c9-dd393540d0e7.png" 
+                alt="Second Nature" 
+                className="h-12 w-auto cursor-pointer hover:opacity-80 transition-opacity"
+              />
+            </button>
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
-            {navItems.map((item) => (
-              <button
-                key={item.name}
-                onClick={() => scrollToSection(item.href)}
-                className={`text-sm font-medium transition-colors duration-200 hover:text-blue-600 ${
-                  scrolled ? 'text-gray-700' : 'text-white'
-                }`}
-              >
-                {item.name}
-              </button>
-            ))}
-          </div>
-
-          {/* Mobile Menu Button */}
-          <div className="lg:hidden">
+          {/* Menu Button - Always visible on all devices */}
+          <div>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`p-2 rounded-md ${scrolled ? 'text-gray-700' : 'text-white'}`}
@@ -73,9 +67,9 @@ const Navigation = () => {
           </div>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Navigation Menu - All devices */}
         {isMenuOpen && (
-          <div className="lg:hidden bg-white border-t border-gray-200">
+          <div className="bg-white border-t border-gray-200">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navItems.map((item) => (
                 <button

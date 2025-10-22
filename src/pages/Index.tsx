@@ -8,6 +8,8 @@ import ImpactJourney from '../components/ImpactJourney';
 import ImpactAdvisory from '../components/ImpactAdvisory';
 import EcosystemServices from '../components/EcosystemServices';
 import CleanEnergy from '../components/CleanEnergy';
+import VoicesOfImpact from '../components/VoicesOfImpact';
+import Resources from '../components/Resources';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -31,6 +33,8 @@ const Index = () => {
         <ImpactAdvisory />
         <EcosystemServices />
         <CleanEnergy />
+        <VoicesOfImpact />
+        <Resources />
       </main>
       <Footer />
     </div>
