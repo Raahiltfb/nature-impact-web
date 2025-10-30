@@ -99,36 +99,37 @@ const ImpactJourney = () => {
           {/* Timeline */}
           <div className="max-w-6xl mx-auto mt-16">
             <div className="relative">
-              {/* Timeline Line */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-blue-200 to-blue-400"></div>
+              {/* Timeline Line - Hidden on mobile */}
+              <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-gradient-to-b from-blue-200 to-blue-400"></div>
 
               {/* Timeline Events */}
-              <div className="space-y-12">
+              <div className="space-y-8 md:space-y-12">
                 {timelineEvents.map((event, index) => (
-                  <div key={index} className={`flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
-                    <div className={`w-1/2 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
-                      <div className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
-                        <div className="flex items-center space-x-3 mb-3">
-                          <div className={`w-12 h-12 rounded-full border-2 flex items-center justify-center ${getColorClasses(event.color)}`}>
-                            <event.icon className="w-6 h-6" />
+                  <div key={index} className={`flex flex-col md:flex-row items-center ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
+                    {/* Mobile & Desktop Card */}
+                    <div className={`w-full md:w-1/2 ${index % 2 === 0 ? 'md:pr-8 md:text-right' : 'md:pl-8 md:text-left'}`}>
+                      <div className="bg-white rounded-xl shadow-lg p-6 md:p-8 hover:shadow-xl transition-shadow duration-300">
+                        <div className={`flex items-center space-x-4 mb-4 ${index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'}`}>
+                          <div className={`w-14 h-14 rounded-full border-2 flex items-center justify-center ${getColorClasses(event.color)}`}>
+                            <event.icon className="w-7 h-7" />
                           </div>
                           <div>
-                            <span className="text-2xl font-bold text-gray-900">{event.year}</span>
+                            <span className="text-2xl md:text-3xl font-bold text-gray-900">{event.year}</span>
                           </div>
                         </div>
-                        <h3 className="text-xl font-bold text-gray-900 mb-2">{event.title}</h3>
-                        <p className="text-gray-600"
+                        <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3">{event.title}</h3>
+                        <p className="text-gray-600 text-sm md:text-base leading-relaxed"
                            dangerouslySetInnerHTML={{ __html: event.description }}
                           ></p>
                       </div>
                     </div>
 
-                    {/* Timeline Dot */}
-                    <div className="relative z-10">
+                    {/* Timeline Dot - Hidden on mobile */}
+                    <div className="hidden md:block relative z-10">
                       <div className="w-6 h-6 bg-blue-600 rounded-full border-4 border-white shadow-lg"></div>
                     </div>
 
-                    <div className="w-1/2"></div>
+                    <div className="hidden md:block md:w-1/2"></div>
                   </div>
                 ))}
               </div>

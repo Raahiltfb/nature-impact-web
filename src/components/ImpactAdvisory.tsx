@@ -1,13 +1,18 @@
 
 import React from 'react';
 import { Building2, Users, Leaf, Zap, Heart } from 'lucide-react';
+import kesarjanLogo from '@/assets/kesarjan-logo.png';
+import elfLogo from '@/assets/elf-logo.png';
+import opendoorsLogo from '@/assets/opendoors-logo.png';
+import minusco2Logo from '@/assets/minusco2-logo.jpeg';
+import tejuLogo from '@/assets/teju-logo.jpeg';
 
 const ImpactAdvisory = () => {
   const impactEnterprises = [
     {
       id: 1,
       name: 'Kesarjan',
-      image: '/lovable-uploads/440a5d01-84f1-4553-8f6d-93709e155ba9.png',
+      image: kesarjanLogo,
       description: 'Upcycling Construction & Demolition waste into ready-to-use products for the construction industry. A circular economy company.',
       details: 'Kasalyan Enviro Systems is a waste management company that converts Recycled Dressed Bricks by bonding in different combinations of sand and mineral waste(such as fly ash), avoiding the waste from 2 brick kilns across a 1000 sq km area, City with 3% recycled aggregates, and 60% avoidance of weak material in cement, construction sites. The Asia Infrastructure Investment Bank selected Kasalyan to conduct studies of sustainable urban infrastructure in 2022. Kasalyan is involved in eight companies, has a minimum of 1 lakh ex water per month capacity.',
       impact: [
@@ -20,7 +25,7 @@ const ImpactAdvisory = () => {
     {
       id: 2,
       name: 'ELF - Eco-Logical Foundation',
-      image: '/lovable-uploads/aa8a9214-5c3c-4e3e-a1e4-4076279976af.png',
+      image: elfLogo,
       description: 'Providing integrated and mobilisation for leadership development and facilitating social-ecological transformation. Systems Change not for-profit Trust.',
       details: 'ELF believes in the power of anyone and everyone to make a difference. Because rapid co-valuation that adopt transformative socio-ecological thinking, bring the change they want to see around us are human-made and can be changed by human-minds with that.',
       activities: [
@@ -40,7 +45,7 @@ const ImpactAdvisory = () => {
     {
       id: 3,
       name: 'OPENDOORS',
-      image: '/lovable-uploads/bec9b3c3-f2a9-41c2-98ae-61c6855f7a7b.png',
+      image: opendoorsLogo,
       description: 'Relocation as a form of empowerment... not just a transaction. A creative arts not-for-profit company.',
       details: 'OPENDOORS believes the relocation process is an opportunity to engage creative environments to collaborate and young adults to recognise their unique talents and potential through art. Working with purpose, OPENDOORS harnesses the creative arts, interior and in the community based on the systems that truly empower houses of various.',
       activities: [
@@ -57,7 +62,7 @@ const ImpactAdvisory = () => {
     {
       id: 4,
       name: 'MinusCO2',
-      image: 'https://minusco2.in/images/logo1.png',
+      image: minusco2Logo,
       description: 'Increasing the adoption of distributed clean-energy through technology for impact retail finance. A Search for-profit company.',
       details: 'MinusCO2 works on four fronts, a specialist with differentiated retail offers on residential solar and commercial energy and IT services as a managed services without pricing for retail reach improvement programmes.',
       activities: [
@@ -75,7 +80,7 @@ const ImpactAdvisory = () => {
     {
       id: 5,
       name: 'TEJ-U',
-      image: '/lovable-uploads/f55ea0f3-3f4a-423a-88a4-18e6702d992f.png',
+      image: tejuLogo,
       description: 'Teja Learning Pvt Ltd. Boosting employability by enabling knowledge-based employability for junior persons. A for-profit education company.',
       details: 'TEJ-U interventions at the school system level (sharing skills development centers across Teja junior empowerment, critical thinking, and problem Knowledge development) that have an immaculately positive effect on the students.',
       activities: [
@@ -149,32 +154,32 @@ const ImpactAdvisory = () => {
           {/* Impact Enterprises Grid - 3-2 Layout */}
           <div className="max-w-7xl mx-auto mt-16">
             {/* Top Row - 3 Cards */}
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
               {impactEnterprises.slice(0, 3).map((enterprise) => (
                 <div key={enterprise.id} className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                  <div className="p-6">
+                  <div className="p-8">
                     {/* Header */}
-                    <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">{enterprise.name}</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">{enterprise.name}</h3>
                     
                     {/* Image */}
-                    <div className="w-20 h-20 mx-auto mb-4 overflow-hidden rounded-lg">
+                    <div className="w-28 h-28 mx-auto mb-6 overflow-hidden rounded-lg bg-white p-2 border border-gray-100">
                       <img 
                         src={enterprise.image} 
                         alt={enterprise.name}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                       />
                     </div>
                     
                     {/* Description */}
-                    <p className="text-sm text-gray-700 mb-4 text-center leading-relaxed">{enterprise.description}</p>
+                    <p className="text-sm text-gray-700 mb-6 text-center leading-relaxed">{enterprise.description}</p>
                     
                     {/* Details */}
-                    <div className="text-xs text-gray-600 mb-4 leading-relaxed">{enterprise.details}</div>
+                    <div className="text-xs text-gray-600 mb-6 leading-relaxed">{enterprise.details}</div>
                     
                     {/* Activities */}
                     {enterprise.activities && (
-                      <div className="mb-4">
-                        <ul className="text-xs text-gray-600 space-y-1">
+                      <div className="mb-6">
+                        <ul className="text-xs text-gray-600 space-y-2">
                           {enterprise.activities.map((activity, index) => (
                             <li key={index} className="flex items-start">
                               <span className="text-blue-600 mr-2">•</span>
@@ -187,8 +192,8 @@ const ImpactAdvisory = () => {
                     
                     {/* Impact */}
                     <div>
-                      <h4 className="font-semibold text-gray-800 mb-2 text-sm">Impact:</h4>
-                      <ul className="text-xs text-gray-600 space-y-1">
+                      <h4 className="font-semibold text-gray-800 mb-3 text-sm">Impact:</h4>
+                      <ul className="text-xs text-gray-600 space-y-2">
                         {enterprise.impact.map((item, index) => (
                           <li key={index} className="flex items-start">
                             <span className="text-green-600 mr-2">•</span>
@@ -204,32 +209,32 @@ const ImpactAdvisory = () => {
 
             {/* Bottom Row - 2 Cards Centered */}
             <div className="flex justify-center">
-              <div className="grid md:grid-cols-2 gap-6 max-w-4xl w-full">
+              <div className="grid md:grid-cols-2 gap-8 max-w-4xl w-full">
                 {impactEnterprises.slice(3, 5).map((enterprise) => (
                   <div key={enterprise.id} className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div className="p-6">
+                    <div className="p-8">
                       {/* Header */}
-                      <h3 className="text-lg font-bold text-gray-900 mb-4 text-center">{enterprise.name}</h3>
+                      <h3 className="text-xl font-bold text-gray-900 mb-6 text-center">{enterprise.name}</h3>
                       
                       {/* Image */}
-                      <div className="w-20 h-20 mx-auto mb-4 overflow-hidden rounded-lg">
+                      <div className="w-28 h-28 mx-auto mb-6 overflow-hidden rounded-lg bg-white p-2 border border-gray-100">
                         <img 
                           src={enterprise.image} 
                           alt={enterprise.name}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                         />
                       </div>
                       
                       {/* Description */}
-                      <p className="text-sm text-gray-700 mb-4 text-center leading-relaxed">{enterprise.description}</p>
+                      <p className="text-sm text-gray-700 mb-6 text-center leading-relaxed">{enterprise.description}</p>
                       
                       {/* Details */}
-                      <div className="text-xs text-gray-600 mb-4 leading-relaxed">{enterprise.details}</div>
+                      <div className="text-xs text-gray-600 mb-6 leading-relaxed">{enterprise.details}</div>
                       
                       {/* Activities */}
                       {enterprise.activities && (
-                        <div className="mb-4">
-                          <ul className="text-xs text-gray-600 space-y-1">
+                        <div className="mb-6">
+                          <ul className="text-xs text-gray-600 space-y-2">
                             {enterprise.activities.map((activity, index) => (
                               <li key={index} className="flex items-start">
                                 <span className="text-blue-600 mr-2">•</span>
@@ -242,8 +247,8 @@ const ImpactAdvisory = () => {
                       
                       {/* Impact */}
                       <div>
-                        <h4 className="font-semibold text-gray-800 mb-2 text-sm">Impact:</h4>
-                        <ul className="text-xs text-gray-600 space-y-1">
+                        <h4 className="font-semibold text-gray-800 mb-3 text-sm">Impact:</h4>
+                        <ul className="text-xs text-gray-600 space-y-2">
                           {enterprise.impact.map((item, index) => (
                             <li key={index} className="flex items-start">
                               <span className="text-green-600 mr-2">•</span>
