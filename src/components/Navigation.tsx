@@ -49,7 +49,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <button onClick={scrollToTop} className="focus:outline-none">
               <img 
-                src={scrolled ? "/logo-header.png" : "/logo-everywhere.png"}
+                src={scrolled ? "/everywhere.png" : "/header&foot.png"}
                 alt="Second Nature" 
                 className="h-12 w-auto cursor-pointer hover:opacity-80 transition-opacity"
               />
