@@ -4,15 +4,15 @@ import { FileText, Download, ExternalLink } from 'lucide-react';
 const Resources = () => {
   const resources = [
     {
-      title: 'Impact Investment Guide',
-      type: 'PDF',
-      url: '#',
-      icon: FileText,
+      title: 'The Impact Revolution',
+      type: 'External',
+      url: 'https://india.fes.de/e/the-impact-revolution-is-here-are-you-ready.html',
+      icon: ExternalLink,
     },
     {
       title: 'Ecosystem Services Framework',
       type: 'Document',
-      url: '#',
+      url: 'https://library.fes.de/pdf-files/bueros/indien/21166.pdf',
       icon: Download,
     },
     {
