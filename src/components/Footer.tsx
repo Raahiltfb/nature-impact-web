@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div>
               <img 
-                src="/logo-header.png" 
+                src="/header&foot.png" 
                 alt="Second Nature" 
                 className="h-16 w-auto mb-4"
               />
