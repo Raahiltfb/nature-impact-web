@@ -24,12 +24,12 @@ const VoicesOfImpact = () => {
           </div>
 
           <div className="text-center">
-            <a
-              href="https://voicesofimpact.secondnaturess.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3 text-lg font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
-            >
+          <a
+            href="https://voicesofimpact.secondnaturess.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center px-8 py-3 text-lg font-medium text-white bg-blue-600 hover:bg-blue-700 hover:text-white rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+          >
               See More
             </a>
           </div>
