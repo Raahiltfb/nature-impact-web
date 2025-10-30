@@ -124,7 +124,7 @@ const ImpactAdvisory = () => {
           </div>
 
           {/* Context */}
-          <div className="max-w-5xl mx-auto space-y-6 text-lg leading-relaxed text-gray-700">
+          <div className="max-w-5xl mx-auto space-y-6 text-xl leading-relaxed text-gray-700">
             <p>
               A compelling need to co-create an ecosystem that supports and nurtures socio-ecological change-makers, and enables their transformative initiatives to scale and deliver impact.
             </p>
