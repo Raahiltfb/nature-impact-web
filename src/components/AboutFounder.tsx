@@ -48,21 +48,21 @@ const AboutFounder = () => {
                   <div className="flex flex-wrap gap-4 pt-4">
                     <a
                       href="https://www.linkedin.com/in/mehtaashish2015/"
-                      className="flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors duration-200 **hover:text-white**"
+                      className="flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 hover:text-white transition-colors duration-200"
                       >
                       <Linkedin className="w-5 h-5" />
                       <span>LinkedIn</span>
                     </a>
                     <a
                       href="https://minusco2.in/"
-                      className="flex items-center space-x-2 bg-gray-600 text-white px-6 py-3 rounded-lg hover:bg-gray-700 transition-colors duration-200 **hover:text-white**"
+                      className="flex items-center space-x-2 bg-gray-600 text-white px-6 py-3 rounded-lg hover:bg-gray-700 hover:text-white transition-colors duration-200"
                       >
                       <ExternalLink className="w-5 h-5" />
                       <span>Minus CO2</span>
                     </a>
                     <a
                       href="https://secondnaturess.com/"
-                      className="flex items-center space-x-2 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors duration-200 **hover:text-white**"
+                      className="flex items-center space-x-2 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 hover:text-white transition-colors duration-200"
                       >
                       <Mail className="w-5 h-5" />
                       <span>Second Nature</span>
