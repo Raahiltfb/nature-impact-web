@@ -64,7 +64,7 @@ const AboutFounder = () => {
                       href="https://secondnaturess.com/"
                       className="flex items-center space-x-2 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 hover:text-white transition-colors duration-200"
                       >
-                      <Mail className="w-5 h-5" />
+                      <ExternalLink className="w-5 h-5" />
                       <span>Second Nature</span>
                     </a>
                   </div>
