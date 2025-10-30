@@ -16,9 +16,9 @@ const Resources = () => {
       icon: Download,
     },
     {
-      title: 'Clean Energy Report',
+      title: 'Impact Investment Ecosystem',
       type: 'PDF',
-      url: '#',
+      url: 'https://india.fes.de/fileadmin/user_upload/IIE.pdf',
       icon: FileText,
     },
     {
