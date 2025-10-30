@@ -83,10 +83,10 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://www.linkedin.com/in/mehtaashish2015/" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://www.minusco2.in/" className="text-gray-400 hover:text-blue-400 transition-colors">
                 <ExternalLink className="w-6 h-6" />
               </a>
             </div>
