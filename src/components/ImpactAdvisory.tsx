@@ -124,8 +124,8 @@ const ImpactAdvisory = () => {
           </div>
 
           {/* Context */}
-          <div className="max-w-5xl mx-auto space-y-6 text-xl leading-relaxed text-gray-700">
-            <p>
+          <div className="max-w-5xl mx-auto space-y-6 text-lg leading-relaxed text-gray-700">
+            <p className="text-2xl text-blue-600 font-medium">
               A compelling need to co-create an ecosystem that supports and nurtures socio-ecological change-makers, and enables their transformative initiatives to scale and deliver impact.
             </p>
             
@@ -136,7 +136,7 @@ const ImpactAdvisory = () => {
             <p>
               Our inference is that the traditional models of - consulting and advisory – or matchmaking between buyer/seller or investor/investee – or the accelerator and incubator models for start-ups – are not sufficient.
             </p>
-            
+  
             <p className="font-semibold text-blue-600">
               Our hypothesis: a values-based collaboration, built on trust, mutual respect, and shared goals – To Facilitate Systems Change in an Impact Economy.
             </p>
