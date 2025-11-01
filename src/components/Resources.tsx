@@ -1,4 +1,5 @@
 import React from 'react';
+// Import the necessary icons from lucide-react
 import { FileText, Download, ExternalLink } from 'lucide-react';
 
 const Resources = () => {
@@ -13,7 +14,7 @@ const Resources = () => {
       title: 'Ecosystem Services Framework',
       type: 'Document',
       url: 'https://library.fes.de/pdf-files/bueros/indien/21166.pdf',
-      icon: Download,
+      icon: ExternalLink,
     },
     {
       title: 'Impact Investment Ecosystem',
@@ -23,9 +24,10 @@ const Resources = () => {
     },
     {
       title: 'Impact Measurement Tools',
-      type: 'External',
-      url: '#',
-      icon: ExternalLink,
+      type: 'PDF',
+      // Ensure this path exactly matches the location of your PDF
+      url: '/lovable-uploads/CKT College Impact Economy.pdf',
+      icon: Download,
     },
   ];
 
@@ -44,10 +46,20 @@ const Resources = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {resources.map((resource, index) => {
             const Icon = resource.icon;
+            
+            // Determine if the resource should have the download attribute
+            const isDownloadable = resource.icon === Download; 
+
             return (
               <a
                 key={index}
                 href={resource.url}
+                
+                // 💡 CONDITIONAL DOWNLOAD LOGIC: 
+                // If isDownloadable is true, it adds the attribute 
+                // download="CKT_College_Impact_Economy.pdf"
+                {...(isDownloadable ? { download: "CKT_College_Impact_Economy.pdf" } : {})}
+                
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-6 bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-all duration-200 hover:border-blue-300"
