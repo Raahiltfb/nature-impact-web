@@ -25,7 +25,7 @@ const Resources = () => {
     {
       title: 'Impact Opportunity of Urban Energy Transition',
       type: 'PDF',
-      url: '/lovable-uploads/CKT_College_Impact_Economy.pdf',
+      url: '/CKT_College_Impact_Economy.pdf',
       icon: Download,
     },
   ];
