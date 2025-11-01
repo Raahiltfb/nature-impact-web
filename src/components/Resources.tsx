@@ -23,10 +23,9 @@ const Resources = () => {
       icon: FileText,
     },
     {
-      title: 'Impact Measurement Tools',
+      title: 'Impact Opportunity of Urban Energy Transition',
       type: 'PDF',
-      // Ensure this path exactly matches the location of your PDF
-      url: '/lovable-uploads/CKT College Impact Economy.pdf',
+      url: '/public/lovable-uploads/CKT College Impact Economy.pdf',
       icon: Download,
     },
   ];
